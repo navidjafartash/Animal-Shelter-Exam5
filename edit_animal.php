@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 
 // Ensure the user is logged in and is an admin
 if (!isset($_SESSION['user_email']) || $_SESSION['role'] != 'admin') {
